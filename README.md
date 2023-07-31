@@ -29,7 +29,7 @@ To make our findings more accessible, we create informative bar charts that show
 
 ## Conclusion
 
-As we conclude our exploration into Monte Carlo option pricing, we unveil a nuanced understanding of the two pricing methods. Armed with insights from the Black-Scholes formula and the Monte Carlo simulation, traders and investors can make informed decisions regarding their option trading strategies.
+As we conclude our exploration into Monte Carlo option pricing, we unveil a nuanced understanding of the two pricing methods. The Pricing varied drastically using these two methods, demonstrating the discrepancies between them. Namelly
 
 ## Requirements
 

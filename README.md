@@ -1,5 +1,7 @@
 # Monte-Carlo-Vs-Black-Scholes-Test
 
+ ![Monte Carlo](Monte%20Carlo%20vs%20Black-Scholes/plot.png)
+
 
 ## Introduction
 

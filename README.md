@@ -43,11 +43,13 @@ def get_bond_yield(maturity):
 One of the pillars of modern finance, the Black-Scholes formula, comes into play. Using this elegant equation, we calculate the theoretical price of European call options for each stock. Taking into account factors like stock price, strike price, risk-free rate, time to maturity, and stock volatility, the formula provides an estimated option price consistent with modern pricing techniques.
 
 ```python
+
 def black_scholes_call_option(S, X, r, T, sigma):
     d1 = (np.log(S / X) + (r + (sigma ** 2) / 2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
     call_option_price = S * norm.cdf(d1) - X * np.exp(-r * T) * norm.cdf(d2)
     return call_option_price
+
 ```
 
 ## Monte Carlo Simulation

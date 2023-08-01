@@ -10,7 +10,16 @@ In this coding project, we delve into the domain of option pricing using two pow
 ## Data Retrieval
 
 To kick things off, we fetch the historical stock price data for the selected tech stocks. This data serves as the foundation for our analysis, enabling us to understand the behavior and trends of each stock over the specified period. 
+```python
+import yfinance as yf
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import norm
 
+def get_stock_data(ticker, start_date, end_date):
+    stock_data = yf.download(ticker, start=start_date, end=end_date)
+    return stock_data
+```
 ## The Black-Scholes Formula
 
 One of the pillars of modern finance, the Black-Scholes formula, comes into play. Using this elegant equation, we calculate the theoretical price of European call options for each stock. Taking into account factors like stock price, strike price, risk-free rate, time to maturity, and stock volatility, the formula provides an estimated option price consistent with modern pricing techniques.

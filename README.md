@@ -29,7 +29,8 @@ To make our findings more accessible, we create informative bar charts that show
 
 ## Conclusion
 
-As we conclude our exploration into Monte Carlo option pricing, we unveil a nuanced understanding of the two pricing methods. The Pricing varied drastically using these two methods, demonstrating the discrepancies between them. Namelly
+As we conclude our exploration into Monte Carlo option pricing, we unveil a nuanced understanding of the two pricing methods. The Pricing varied drastically using these two methods, demonstrating the discrepancies between them. Namely that the expected growth of these tech stocks, was likely overestimated, resulting in a large upswing in price according to our Monte 
+Carlo simulation. This had the result of the option price being calculated at a far higher rate than as predicted by Black-Scholes, making this a poor instance to use a Monte Carlo method.
 
 ## Requirements
 

@@ -9,7 +9,7 @@ This project delves into the domain of option pricing using two powerful methods
 
 ## Data Retrieval
 
-To kick things off, I fetched the historical stock price data for the selected tech stocks. This data serves as the foundation for our analysis, enabling us to understand the behavior and trends of each stock over the specified period. 
+To kick things off, I fetched the historical stock price data for the selected tech stocks. This data serves as the foundation for my analysis, enabling me to understand the behavior and trends of each stock over the specified period. 
 ```python
 import yfinance as yf
 import numpy as np
@@ -40,7 +40,7 @@ def get_bond_yield(maturity):
 ```
 ## The Black-Scholes Formula
 
-One of the pillars of modern finance, the Black-Scholes formula, comes into play. Using this elegant equation, wI calculated the theoretical price of European call options for each stock. Taking into account factors like stock price, strike price, risk-free rate, time to maturity, and stock volatility, the formula provides an estimated option price consistent with modern pricing techniques.
+One of the pillars of modern finance, the Black-Scholes formula, comes into play. Using this elegant equation, I calculated the theoretical price of European call options for each stock. Taking into account factors like stock price, strike price, risk-free rate, time to maturity, and stock volatility, the formula provides an estimated option price consistent with modern pricing techniques.
 
 ```python
 
